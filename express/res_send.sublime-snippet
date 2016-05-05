@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+res.send('${1}');
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>res.send</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+	<description>express res.send</description>
+</snippet>
