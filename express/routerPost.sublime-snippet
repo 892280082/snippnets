@@ -2,11 +2,11 @@
 	<content><![CDATA[
 router.post('${1}',(req,res)=>{
 	
-})
+});
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>router.post</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.js</scope>
-	<description>js arguments</description>
+	<description>express router-post</description>
 </snippet>
