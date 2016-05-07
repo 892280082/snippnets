@@ -44,3 +44,15 @@ scope: source.js
 *@date ${1}
 */
 ==================================================================
+#个人的注释习惯
+trigger: Object.DefinePrototype
+description: Object_DefinePrototype
+scope:source.js
+
+Object.DefinePrototype(${1},'',{
+	config:true,
+	get:function(){
+
+	}
+})
+==================================================================

@@ -1,0 +1,27 @@
+{
+  "name": "snippnets",
+  "version": "1.0.0",
+  "description": "sublime-snippents插件",
+  "main": "./lib/index.js",
+  "dependencies": {
+    "underscore": "^1.8.3",
+    "yqfs": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://892280082:a19921129zpf@github.com/892280082/snippnets.git"
+  },
+  "keywords": [
+    "sublime-snippents"
+  ],
+  "author": "yq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/892280082/snippnets/issues"
+  },
+  "homepage": "https://github.com/892280082/snippnets#readme"
+}

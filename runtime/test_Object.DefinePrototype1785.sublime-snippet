@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+Object.DefinePrototype(${1},'',{
+	config:true,
+	get:function(){
+
+	}
+})
+]]></content>
+<tabTrigger>Object.DefinePrototype</tabTrigger>
+<scope>source.js</scope>
+<description>Object_DefinePrototype</description>
+</snippet>
