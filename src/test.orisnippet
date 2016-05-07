@@ -1,0 +1,46 @@
+#Object.hasOwnProperty
+trigger: ObjectHasownProperty
+description: js Object
+scope: source.js
+
+Object.hasOwnProperty(${1});
+==================================================================
+#Array.prototype.slice(argumets);
+trigger: ArrayPrototypeSlice
+description: js Array
+scope: source.js
+
+Array.prototype.slice(argumets);
+==================================================================
+#Console.$log
+trigger: ConsoleLog
+description: js Console
+scope: source.js
+
+var debug = true;
+console.$log = function(){
+	var args = Array.prototype.slice.call(arguments);
+	args.unshift('LOG-->');
+	if(debug){
+		console.log.apply(console,args);
+	}
+};
+==================================================================
+#String.valueOf()
+trigger: String.valueOf()
+description: js String
+scope: source.js
+
+String.valueOf(${1})
+==================================================================
+#个人的注释习惯
+trigger: desction_yq
+description: yq 注释
+scope: source.js
+
+/**
+*@desction
+*@auther
+*@date ${1}
+*/
+==================================================================

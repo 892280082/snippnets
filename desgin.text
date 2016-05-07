@@ -3,7 +3,7 @@
 目录结构(除去node_module)
 -----snippets
 --lib //代码
---src //用户编写文件目录，
+--src //用户编写文件目录，后缀名 .orisnippet
 --runtime //编译后的文件目录，放置生成的snippents
 
 ######################################################################
@@ -28,7 +28,20 @@ code
 -1. 删除 runtime文件夹。在创建runtime文件夹。
 
 1.递归查询当前目录下，所有的.sub_snp 文件。返回路径数组
-2.按行读取每个文件。
+2.按行读取每个文件。处理数据得到以下对象 
+对象名 Snippet
+{
+	fileName:String,
+	snippet:[{
+		trigger:String,
+		description:String,
+		scope:String,
+		code:[String],
+	}]
+}
+
+
+
 3.查询这些数据 得到数据对象
 4.拼装这些对象，并将文件生成到runtime目录下。
 
