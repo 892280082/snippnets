@@ -26,33 +26,14 @@ console.$log = function(){
 	}
 };
 ==================================================================
-#String.valueOf()
-trigger: String.valueOf()
-description: js String
+#Console.$log
+trigger: 赵攀飞
+description: 68中 大白痴
 scope: source.js
 
-String.valueOf(${1})
+while(1/0${1}){
+	console.log("赵攀飞 68中大白痴！！！");
+}
 ==================================================================
-#个人的注释习惯
-trigger: desction_yq
-description: yq 注释
-scope: source.js
 
-/**
-*@desction
-*@auther
-*@date ${1}
-*/
-==================================================================
-#个人的注释习惯
-trigger: Object.DefinePrototype
-description: Object_DefinePrototype
-scope:source.js
 
-Object.DefinePrototype(${1},'',{
-	config:true,
-	get:function(){
-
-	}
-})
-==================================================================
