@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-String.valueOf(${1})
-]]></content>
-<tabTrigger>String.valueOf()</tabTrigger>
-<scope>source.js</scope>
-<description>js String</description>
-</snippet>

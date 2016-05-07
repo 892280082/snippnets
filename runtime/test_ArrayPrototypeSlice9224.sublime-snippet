@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-Array.prototype.slice(argumets);
-]]></content>
-<tabTrigger>ArrayPrototypeSlice</tabTrigger>
-<scope>source.js</scope>
-<description>js Array</description>
-</snippet>
