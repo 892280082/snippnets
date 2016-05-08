@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+done((err)=>{
+	${1}
+})
+]]></content>
+<tabTrigger>done</tabTrigger>
+<scope>source.js</scope>
+<description>yqthen_done</description>
+</snippet>

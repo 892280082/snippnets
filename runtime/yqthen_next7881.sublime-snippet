@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+next(${1});
+]]></content>
+<tabTrigger>next</tabTrigger>
+<scope>source.js</scope>
+<description>yqthen_next</description>
+</snippet>

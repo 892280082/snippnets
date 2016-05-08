@@ -1,0 +1,80 @@
+#arguments
+trigger: arguments
+description: arguments
+scope: source.js
+
+arguments
+==================================================================
+#打印
+trigger: conso
+description: console.log
+scope: source.js
+
+console.log('${1}');
+==================================================================
+#导出
+trigger: exports
+description: exports
+scope: source.js
+
+exports.${1}
+==================================================================
+#for-in循环
+trigger: forin
+description: for-in
+scope: source.js
+
+for(var p in ${1}){
+	
+}
+==================================================================
+#箭头函数
+trigger: func
+description: =>
+scope: source.js
+
+(${1})=>{
+	
+}
+==================================================================
+#普通函数
+trigger: function
+description: function
+scope: source.js
+
+function(){
+	${1}
+}
+==================================================================
+#module.export导出
+trigger: module.export
+description: module.export
+scope: source.js
+
+module.exports = ${1}
+==================================================================
+#require导入
+trigger: require
+description: require
+scope: source.js
+
+require('${1}');
+==================================================================
+#定时器
+trigger: setInterval
+description: setInterval
+scope: source.js
+
+setInterval(()=>{
+	${1}
+},0);
+==================================================================
+#延迟器
+trigger: setTimeout
+description: setTimeout
+scope: source.js
+
+setTimeout(()=>{
+	${1}
+},0);
+==================================================================

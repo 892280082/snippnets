@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+for(var p in ${1}){
+	
+}
+]]></content>
+<tabTrigger>forin</tabTrigger>
+<scope>source.js</scope>
+<description>normal_for-in</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Object.getOwnPropertyDescriptor(${1}, propertyname);
+]]></content>
+<tabTrigger>Object.getOwnPropertyDescriptor</tabTrigger>
+<scope>source.js</scope>
+<description>Object_getOwnPropertyDescriptor</description>
+</snippet>

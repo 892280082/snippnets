@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+(${1})=>{
+	
+}
+]]></content>
+<tabTrigger>func</tabTrigger>
+<scope>source.js</scope>
+<description>normal_=></description>
+</snippet>

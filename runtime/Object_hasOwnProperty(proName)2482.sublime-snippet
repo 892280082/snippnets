@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+hasOwnProperty('${1}');
+]]></content>
+<tabTrigger>hasOwnProperty(proName)</tabTrigger>
+<scope>source.js</scope>
+<description>Object_hasOwnProperty</description>
+</snippet>

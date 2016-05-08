@@ -1,0 +1,37 @@
+#将属性添加到对象，或修改现有属性的特性。
+trigger: Object.defineProperty
+description: defineProperty
+scope: source.js
+
+Object.defineProperty(${1}, "", {
+    set: function (x) {
+    	//TD
+    },
+    get: function () {
+        //TD
+    },
+    enumerable: true,
+    configurable: true
+});
+==================================================================
+#获取指定对象的自身属性描述符。自身属性描述符是指直接在对象上定义（而非从对象的原型继承）的描述符。
+trigger: Object.getOwnPropertyDescriptor
+description: getOwnPropertyDescriptor
+scope: source.js
+
+Object.getOwnPropertyDescriptor(${1}, propertyname);
+==================================================================
+#创建一个具有指定原型且可选择性地包含指定属性的对象
+trigger: Object.create 
+description: create
+scope: source.js
+
+Object.create(prototype${1}, descriptors);
+==================================================================
+#确定某个对象是否具有带指定名称的属性。
+trigger: hasOwnProperty(proName) 
+description: hasOwnProperty
+scope: source.js
+
+hasOwnProperty('${1}');
+==================================================================

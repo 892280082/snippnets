@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+Object.defineProperty(${1}, "", {
+    set: function (x) {
+    	//TD
+    },
+    get: function () {
+        //TD
+    },
+    enumerable: true,
+    configurable: true
+});
+]]></content>
+<tabTrigger>Object.defineProperty</tabTrigger>
+<scope>source.js</scope>
+<description>Object_defineProperty</description>
+</snippet>

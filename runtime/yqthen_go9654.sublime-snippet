@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+go((next)=>{
+	${1}
+})
+]]></content>
+<tabTrigger>go</tabTrigger>
+<scope>source.js</scope>
+<description>yqthen_go</description>
+</snippet>

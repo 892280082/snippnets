@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Object.create(prototype${1}, descriptors);
+]]></content>
+<tabTrigger>Object.create</tabTrigger>
+<scope>source.js</scope>
+<description>Object_create</description>
+</snippet>

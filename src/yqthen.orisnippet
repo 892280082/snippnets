@@ -1,0 +1,52 @@
+#done
+trigger: done
+description: done
+scope: source.js
+
+done((err)=>{
+	${1}
+})
+==================================================================
+#each
+trigger: each
+description: each
+scope: source.js
+
+each((next,value)=>{
+	${1}
+})
+==================================================================
+#fail
+trigger: fail
+description: fail
+scope: source.js
+
+fail((next,err)=>{
+	${1}
+})
+==================================================================
+#go
+trigger: go
+description: go
+scope: source.js
+
+go((next)=>{
+	${1}
+})
+==================================================================
+#next
+trigger: next
+description: next
+scope: source.js
+
+next(${1});
+==================================================================
+#then
+trigger: then
+description: then
+scope: source.js
+
+then((next)=>{
+	${1}
+})
+==================================================================

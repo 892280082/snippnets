@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+then((next)=>{
+	${1}
+})
+]]></content>
+<tabTrigger>then</tabTrigger>
+<scope>source.js</scope>
+<description>yqthen_then</description>
+</snippet>

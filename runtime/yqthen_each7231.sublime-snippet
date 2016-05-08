@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+each((next,value)=>{
+	${1}
+})
+]]></content>
+<tabTrigger>each</tabTrigger>
+<scope>source.js</scope>
+<description>yqthen_each</description>
+</snippet>
