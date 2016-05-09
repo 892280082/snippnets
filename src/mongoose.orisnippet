@@ -1,0 +1,9 @@
+#arguments
+trigger: findOne
+description: findOne
+scope: source.js
+
+findOne({_id:${1}},(err,doc)=>{
+	${2}
+});
+==================================================================

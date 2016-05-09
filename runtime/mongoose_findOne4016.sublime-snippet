@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+findOne({_id:${1}},(err,doc)=>{
+	${2}
+});
+]]></content>
+<tabTrigger>findOne</tabTrigger>
+<scope>source.js</scope>
+<description>mongoose_findOne</description>
+</snippet>

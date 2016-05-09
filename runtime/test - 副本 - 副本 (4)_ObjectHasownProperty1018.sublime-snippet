@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-Object.hasOwnProperty(${1});
-]]></content>
-<tabTrigger>ObjectHasownProperty</tabTrigger>
-<scope>source.js</scope>
-<description>js Object</description>
-</snippet>

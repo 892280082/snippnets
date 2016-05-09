@@ -2,7 +2,7 @@
 	<content><![CDATA[
 setInterval(()=>{
 	${1}
-},0);
+},0${2});
 ]]></content>
 <tabTrigger>setInterval</tabTrigger>
 <scope>source.js</scope>

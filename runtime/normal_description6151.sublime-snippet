@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * @desc ${1}
+ * @auther yq
+ * @param  ${2} {${3}} -${4}
+ * @param  ${5} {${6}} -${7}
+ * @param callback {Function} -m 回调函数
+ * @call (err,${8});
+ */
+]]></content>
+<tabTrigger>description</tabTrigger>
+<scope>source.js</scope>
+<description>normal_/***/</description>
+</snippet>
