@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-each((next,value)=>{
-	${1}
-})
+each(${1}(next,value)=>{
+	${2}
+}${3})
 ]]></content>
 <tabTrigger>each</tabTrigger>
 <scope>source.js</scope>

@@ -12,9 +12,9 @@ trigger: each
 description: each
 scope: source.js
 
-each((next,value)=>{
-	${1}
-})
+each(${1}(next,value)=>{
+	${2}
+}${3})
 ==================================================================
 #fail
 trigger: fail
@@ -46,7 +46,7 @@ trigger: then
 description: then
 scope: source.js
 
-then((next)=>{
-	${1}
+then((next${1})=>{
+	${2}
 })
 ==================================================================
