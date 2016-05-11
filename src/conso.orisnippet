@@ -1,0 +1,17 @@
+#arguments
+trigger: conso_print
+description: console
+scope: source.js
+
+function(code,err){
+	var args = Array.prototype.slice.call(arguments);
+	var tempCode = args.shift();
+	switch(tempCode)
+	{
+		case 0: args.unshift("SYSTEM_LOG---->");break;
+		case 1: args.unshift("SYSTEM_WARN---->");break;
+		case 2: args.unshift("SYSTEM_ERROR---->");break;
+	}
+	console.log.apply(console,args);
+};
+==================================================================
