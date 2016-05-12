@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+'use strict';
+]]></content>
+<tabTrigger>desc_strict</tabTrigger>
+<scope>source.js</scope>
+<description>descript_严格模式</description>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * Module variables.
+ * @private
+ */
+]]></content>
+<tabTrigger>desc_private</tabTrigger>
+<scope>source.js</scope>
+<description>descript_描述变量</description>
+</snippet>

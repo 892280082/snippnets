@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * Module dependencies.
+ * @private
+ */
+]]></content>
+<tabTrigger>desc_depence</tabTrigger>
+<scope>source.js</scope>
+<description>descript_描述依赖</description>
+</snippet>

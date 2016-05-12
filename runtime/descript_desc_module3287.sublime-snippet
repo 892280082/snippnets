@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+/*!
+ * ${1}
+ * @auther yq
+ * @Copyright(c) 2016 YeQin
+ * @MIT Licensed
+ */
+]]></content>
+<tabTrigger>desc_module</tabTrigger>
+<scope>source.js</scope>
+<description>descript_描述模块</description>
+</snippet>

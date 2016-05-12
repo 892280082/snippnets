@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * Module exports.
+ * @public
+ */
+]]></content>
+<tabTrigger>desc_export</tabTrigger>
+<scope>source.js</scope>
+<description>descript_描述导出</description>
+</snippet>

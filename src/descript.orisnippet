@@ -1,0 +1,50 @@
+#描述模块
+trigger: desc_module
+description: 描述模块
+scope: source.js
+
+/*!
+ * ${1}
+ * @auther yq
+ * @Copyright(c) 2016 YeQin
+ * @MIT Licensed
+ */
+==================================================================
+#描述模块的内部变量
+trigger: desc_private
+description: 描述变量
+scope: source.js
+
+/**
+ * Module variables.
+ * @private
+ */
+==================================================================
+#描述模块的导出变量
+trigger: desc_export
+description: 描述导出
+scope: source.js
+
+/**
+ * Module exports.
+ * @public
+ */
+==================================================================
+#启动严格模式
+trigger: desc_strict
+description: 严格模式
+scope: source.js
+
+'use strict';
+==================================================================
+#描述文件依赖
+trigger: desc_depence
+description: 描述依赖
+scope: source.js
+
+/**
+ * Module dependencies.
+ * @private
+ */
+==================================================================
+
