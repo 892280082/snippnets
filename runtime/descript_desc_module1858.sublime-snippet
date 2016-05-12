@@ -5,6 +5,10 @@
  * @auther yq
  * @Copyright(c) 2016 YeQin
  * @MIT Licensed
+ * @API
+ * ------------------------------------------------
+ * 1.	${2}					${3}
+ * ------------------------------------------------
  */
 ]]></content>
 <tabTrigger>desc_module</tabTrigger>
