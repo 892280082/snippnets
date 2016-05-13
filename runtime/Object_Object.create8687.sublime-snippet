@@ -4,5 +4,5 @@ Object.create(prototype${1}, descriptors);
 ]]></content>
 <tabTrigger>Object.create</tabTrigger>
 <scope>source.js</scope>
-<description>Object_create</description>
+<description>Object_创建对象</description>
 </snippet>

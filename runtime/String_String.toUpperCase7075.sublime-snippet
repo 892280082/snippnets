@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+toUpperCase(${1})
+]]></content>
+<tabTrigger>String.toUpperCase</tabTrigger>
+<scope>source.js</scope>
+<description>String_大写</description>
+</snippet>

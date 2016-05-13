@@ -1,0 +1,31 @@
+#转成大写
+trigger: String.toUpperCase
+description: 大写
+scope: source.js
+
+toUpperCase(${1})
+==================================================================
+#转成小写
+trigger: String.toLowerCase
+description: 小写
+scope: source.js
+
+toLowerCase(${1})
+==================================================================
+#分割
+trigger: String.split
+description: 分割
+scope: source.js
+
+split(${1})
+==================================================================
+#修改数组
+trigger: String.slice
+description: 修改数组
+scope: source.js
+
+slice(${1})
+==================================================================
+
+
+

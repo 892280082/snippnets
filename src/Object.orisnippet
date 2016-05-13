@@ -1,6 +1,6 @@
 #将属性添加到对象，或修改现有属性的特性。
 trigger: Object.defineProperty
-description: defineProperty
+description: 添加匿名属性
 scope: source.js
 
 Object.defineProperty(${1}, "", {
@@ -23,14 +23,14 @@ Object.getOwnPropertyDescriptor(${1}, propertyname);
 ==================================================================
 #创建一个具有指定原型且可选择性地包含指定属性的对象
 trigger: Object.create 
-description: create
+description: 创建对象
 scope: source.js
 
 Object.create(prototype${1}, descriptors);
 ==================================================================
 #确定某个对象是否具有带指定名称的属性。
 trigger: hasOwnProperty(proName) 
-description: hasOwnProperty
+description: 私有属性
 scope: source.js
 
 hasOwnProperty('${1}');

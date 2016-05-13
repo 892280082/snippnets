@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+toLowerCase(${1})
+]]></content>
+<tabTrigger>String.toLowerCase</tabTrigger>
+<scope>source.js</scope>
+<description>String_小写</description>
+</snippet>

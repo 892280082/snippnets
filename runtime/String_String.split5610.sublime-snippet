@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+split(${1})
+]]></content>
+<tabTrigger>String.split</tabTrigger>
+<scope>source.js</scope>
+<description>String_分割</description>
+</snippet>

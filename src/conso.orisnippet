@@ -3,7 +3,12 @@ trigger: conso_print
 description: console
 scope: source.js
 
-function(code,err){
+/**
+ * 简单封装的打印日志
+ * @param  {Number} code 0/1/2 log/warning/error
+ * @param  {...}	其余参数由arguments获取	
+ */
+function __console(code,err){
 	var args = Array.prototype.slice.call(arguments);
 	var tempCode = args.shift();
 	switch(tempCode)

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+slice(${1})
+]]></content>
+<tabTrigger>String.slice</tabTrigger>
+<scope>source.js</scope>
+<description>String_修改数组</description>
+</snippet>

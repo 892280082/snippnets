@@ -4,5 +4,5 @@ hasOwnProperty('${1}');
 ]]></content>
 <tabTrigger>hasOwnProperty(proName)</tabTrigger>
 <scope>source.js</scope>
-<description>Object_hasOwnProperty</description>
+<description>Object_私有属性</description>
 </snippet>
